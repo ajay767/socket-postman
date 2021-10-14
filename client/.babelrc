@@ -1,0 +1,27 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@utils": "./utils",
+          "@animation": "./animation",
+          "@components": "./components",
+          "@layout": "./layout",
+          "@front": "./front",
+          "@lib": "./lib",
+          "@ui": "./ui",
+          "@hooks": "./hooks",
+          "@context": "./context",
+          "@public": "./public",
+          "@store": "./store",
+          "@actions": "./store/actions",
+          "@reducers": "./store/reducers",
+          "@sagas": "./store/sagas"
+        }
+      }
+    ]
+  ]
+}
